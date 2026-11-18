@@ -24,3 +24,4 @@ checkpoints/
 #OS clutter
 .DS_Store
 Thumbs.db
+models/
