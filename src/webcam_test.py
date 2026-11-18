@@ -11,7 +11,9 @@ while True:
         break
     frame = cv2.flip(frame, 1)  # mirror view; remove this line for unmirrored
     cv2.imshow("webcam", frame)
-    if cv2.waitKey(1) & 0xFF == ord("q"):
+    
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord("q") or key == 27:  #q or Esc
         break
 
 cap.release()
