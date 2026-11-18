@@ -1,3 +1,5 @@
+#Based on MediaPipe's Hand Landmarker Python guide (Google): https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker/python
+
 import time
 import cv2
 import mediapipe as mp
